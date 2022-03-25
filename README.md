@@ -50,3 +50,6 @@ Signalized intersections in arterial roads result in persistent vehicle idling, 
         year={2022},
     }
 ```
+### Acknowledgement
+
+This research was supported by MIT-IBM Watson AI Lab. The authors acknowledge the MIT SuperCloud and Lincoln Laboratory Supercomputing Center for providing computational resources that have contributed to the research results reported within this paper. The authors would like to thank Mark Taylor, Blaine Leonard, Matt Luker and Michael Sheffield at the Utah Department of Transportation for numerous constructive discussions. The authors would also like to thank Zhongxia Yan for his help in coding the original framework that was extended to produce the computational results reported in this paper.
