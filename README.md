@@ -9,7 +9,6 @@ Signalized intersections in arterial roads result in persistent vehicle idling, 
 
 ### Results
 
-<div align="center">
     
 |        Model                 |    Fuel(L)   | Emission(kg)  | Avg. speed(m/s)  |   
 |------------|----------------|----------------|--------------------| 
@@ -18,7 +17,6 @@ Signalized intersections in arterial roads result in persistent vehicle idling, 
 | Gain (vs M-IDM)              | 25.53%         | 33.38% | 31.94% |   
 | Gain (vs Eco-CACC)           | 4.70%         | 2.98%  | -1.04% |   
 
-</div>
 
 <p align="center">
     <img src="images/simulation.gif" alt="Image" width="400" height="400" />
