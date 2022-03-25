@@ -25,7 +25,7 @@ Signalized intersections in arterial roads result in persistent vehicle idling, 
 4. Install PyTorch from [pytorch.org](pytorch.org).
 5. Install dependencies `pip install -r requirements.txt`
 
-### Run Instructions
+### Instructions for running the code
 `<agent_type>` is the type of the agents that can be used to control CAVs. Available options: RL, IDM
 
 `<res_dir>` is the result directory, which is where the model checkpoints, training logs, and training csv results will be saved. Add `render` as an argument for using `sumo-gui` instead of `sumo`. E.g. `python pexps/<script>.py <res_dir> render`.
