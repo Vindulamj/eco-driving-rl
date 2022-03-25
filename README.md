@@ -1,37 +1,5 @@
-## Welcome to GitHub Pages
+## Reinforcement Learning for Eco-Lagrangian Control at Intersections
+#### Vindula Jayawardana (MIT) and Cathy Wu (MIT)
 
-You can use the [editor on GitHub](https://github.com/Vindulamj/eco-driving-rl/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Signalized intersections in arterial roads result in persistent vehicle idling, accelerations and decelerations thereby contributing significantly towards fuel consumption and CO$_2$ emission levels. There has thus been a line of work studying eco-driving control strategies to reduce fuel consumption and emission levels at intersections. However, methods to devise effective control strategies across a variety of traffic settings remains elusive. In this paper, we propose a reinforcement learning (RL) approach to learn effective eco-driving control strategies. In contrast to existing strategies, an RL approach 1) does not require the vehicle dynamics to take on a specific mathematical form (i.e., model-free), 2) accounts for the complexity of inter-vehicle traffic dynamics, and 3) accommodates rich objectives of reducing fuel consumption while minimizing the impact on travel time. We analyze the potential impact of the learned control policy on fuel consumption, CO$_2$ emission, and travel time, in comparison to human-like driving and model-based baselines. We further demonstrate the generalizability of the learned policies under mixed traffic scenarios. Simulation results indicate that scenarios with 100\% CAVs may yield as high as 18\% reduction in fuel consumption, 25\% reduction in CO$_2$ emission levels while even improving the average travel speed by 20\%.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Vindulamj/eco-driving-rl/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
