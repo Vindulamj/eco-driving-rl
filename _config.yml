@@ -3,4 +3,5 @@ description: Vindula Jayawardana (MIT) and Cathy Wu (MIT)
 logo: /images/intro.png
 show_downloads: true
 google_analytics: G-YJBFFBG3S7
-theme: jekyll-theme-minimal
+remote_theme: jekyll/minima
+plugins: jekyll-remote-theme
