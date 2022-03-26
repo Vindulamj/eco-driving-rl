@@ -37,7 +37,7 @@ Signalized intersections in arterial roads result in persistent vehicle idling, 
 ### Citation
 
 ```
-@inproceedings{jayawardana2021,
+@inproceedings{jayawardana2022,
         title={Reinforcement Learning for Eco-Lagrangian Control at Intersections},
         author={Vindula Jayawardana and Cathy Wu},
         booktitle={20th European Control Conference (ECC)},
