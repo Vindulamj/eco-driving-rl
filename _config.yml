@@ -4,4 +4,4 @@ logo: /images/intro.png
 show_downloads: true
 google_analytics: G-YJBFFBG3S7
 remote_theme: jekyll/minima
-plugins: jekyll-remote-theme
+plugins: {jekyll-remote-theme}
