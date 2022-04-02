@@ -16,19 +16,21 @@ Learned behavior under 100% CAV penetration rate.
 
 #### Baselines
 
-• V-IDM: This is the deterministic vanilla version of the IDM car-following model introduced in Section III-D. It is a driving baseline that can produce realistic shock waves.
-• N-IDM: This baseline adds a noise sampled from a uniform distribution unif (−0.2, 0.2) to the IDM de- fined acceleration a. This is a driving baseline that can produce realistic shock waves and models variability in driving behaviors of humans.
-• M-IDM: This baseline is developed on top of N-IDM model such that IDM parameters introduced in Sec- tion III-D for each driver are sampled from respective Gaussian distributions. It represents a more diverse mix of drivers with varying levels of aggressiveness.
-• Eco-CACC: This is a model-based trajectory optimization strategy.
+* V-IDM: The deterministic vanilla version of the IDM car-following model. It is a driving baseline that can produce realistic shock waves.
+* N-IDM: Adds a noise sampled from a uniform distribution unif (−0.2, 0.2) to the IDM defined acceleration a. This is a driving baseline that can produce realistic shock waves and models variability in driving behaviors of humans.
+* M-IDM: Developed on top of N-IDM model such that IDM parameters for each driver are sampled from respective Gaussian distributions. It represents a more diverse mix of drivers with varying levels of aggressiveness.
+* Eco-CACC: A model-based trajectory optimization strategy.
 
-##### Q1 How does the proposed control policy compare to naturalistic driving and model-based control baselines?
-    
+#### Q1 How does the proposed control policy compare to naturalistic driving and model-based control baselines?
+
+<p align = "center">   
 |        Model                 |    Fuel(L)   | Emission(kg)  | Avg. speed(m/s)  |   
 |------------|----------------|----------------|--------------------| 
 | Gain (vs V-IDM)              | 17.76%       | 25.38% | 19.95% |   
 | Gain (vs N-IDM)              | 18.39%        | 27.43% | 20.56% |   
 | Gain (vs M-IDM)              | 25.53%         | 33.38% | 31.94% |   
 | Gain (vs Eco-CACC)           | 4.70%         | 2.98%  | -1.04% |   
+</p>
 
 <p align = "center">
 Comparison of per vehicle fuel consumption (lower is better), emission level (lower is better) and average speed (higher is better) under different control strategies with 100% CAV penetration rate.
@@ -36,16 +38,16 @@ Comparison of per vehicle fuel consumption (lower is better), emission level (lo
 
 
 <p align="center">
-    <img src="images/ts-diagrams.gif" alt="Image" width="800" height="200" />
+    <img src="images/ts-diagrams.png" alt="Image" width="800" height="200" />
 </p>
 <p align = "center">
 Time space diagrams of north-bound vehicle trajectories produced by a) V-IDM model, b) N-IDM model, c) M-IDM model, d) Eco-CACC model, and e) DRL model. Both Eco-CACC and DRL models demonstrate behaviors which involve reduced stopping at the intersection as compared to IDM variants. Both Eco-CACC and DRL models increase the throughput of vehicles during a green light phase by one extra vehicle as can be seen in Figure 2d and 2e. Figure 2f shows the speed profile of a selected vehicle under the five different control strategies.
 </p>
 
-##### Q2 How well does the proposed control policy generalize to environments unseen at training time?
+#### Q2 How well does the proposed control policy generalize to environments unseen at training time?
 
 <p align="center">
-    <img src="images/mixed-traffic.gif" alt="Image" width="800" height="200" />
+    <img src="images/mixed-traffic.png" alt="Image" width="800" height="200" />
 </p>
 
 <p align = "center">
@@ -65,4 +67,4 @@ Percentage improvement in terms of fuel usage, emission levels and average speed
 ```
 ### Acknowledgement
 
-The authors acknowledge the MIT SuperCloud and Lin- coln Laboratory Supercomputing Center for providing com- putational resources that have contributed to the research results reported within this paper. The authors are grateful to Mark Taylor, Blaine Leonard, Matt Luker and Michael Sheffield at the Utah Department of Transportation for nu- merous constructive discussions. The authors would also like to thank Zhongxia Yan for his help in developing the original framework that was extended to produce the computational results reported in this paper.
+This work was supported by the MIT-IBM Watson AI Lab. The authors acknowledge the MIT SuperCloud and Lincoln Laboratory Supercomputing Center for providing com- putational resources that have contributed to the research results reported within this paper. The authors are grateful to Mark Taylor, Blaine Leonard, Matt Luker and Michael Sheffield at the Utah Department of Transportation for nu- merous constructive discussions. The authors would also like to thank Zhongxia Yan for his help in developing the original framework that was extended to produce the computational results reported in this paper.
