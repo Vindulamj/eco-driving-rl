@@ -23,14 +23,13 @@ Learned behavior under 100% CAV penetration rate.
 
 #### Q1 How does the proposed control policy compare to naturalistic driving and model-based control baselines?
 
-<p align = "center">   
 |        Model                 |    Fuel(L)   | Emission(kg)  | Avg. speed(m/s)  |   
 |------------|----------------|----------------|--------------------| 
 | Gain (vs V-IDM)              | 17.76%       | 25.38% | 19.95% |   
 | Gain (vs N-IDM)              | 18.39%        | 27.43% | 20.56% |   
 | Gain (vs M-IDM)              | 25.53%         | 33.38% | 31.94% |   
 | Gain (vs Eco-CACC)           | 4.70%         | 2.98%  | -1.04% |   
-</p>
+
 
 <p align = "center">
 Comparison of per vehicle fuel consumption (lower is better), emission level (lower is better) and average speed (higher is better) under different control strategies with 100% CAV penetration rate.
@@ -38,7 +37,7 @@ Comparison of per vehicle fuel consumption (lower is better), emission level (lo
 
 
 <p align="center">
-    <img src="images/ts-diagrams.png" alt="Image" width="800" height="200" />
+    <img src="images/ts-diagrams.png" alt="Image" width="800" height="600" />
 </p>
 <p align = "center">
 Time space diagrams of north-bound vehicle trajectories produced by a) V-IDM model, b) N-IDM model, c) M-IDM model, d) Eco-CACC model, and e) DRL model. Both Eco-CACC and DRL models demonstrate behaviors which involve reduced stopping at the intersection as compared to IDM variants. Both Eco-CACC and DRL models increase the throughput of vehicles during a green light phase by one extra vehicle as can be seen in Figure 2d and 2e. Figure 2f shows the speed profile of a selected vehicle under the five different control strategies.
@@ -47,7 +46,7 @@ Time space diagrams of north-bound vehicle trajectories produced by a) V-IDM mod
 #### Q2 How well does the proposed control policy generalize to environments unseen at training time?
 
 <p align="center">
-    <img src="images/mixed-traffic.png" alt="Image" width="800" height="200" />
+    <img src="images/mixed-traffic.png" alt="Image" width="800" height="300" />
 </p>
 
 <p align = "center">
