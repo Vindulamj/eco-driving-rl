@@ -37,7 +37,7 @@ Comparison of per vehicle fuel consumption (lower is better), emission level (lo
 
 
 <p align="center">
-    <img src="images/ts-diagrams.png" alt="Image" width="800" height="600" />
+    <img src="images/ts-diagrams.png" alt="Image" width="800" height="450" />
 </p>
 <p align = "center">
 Time space diagrams of north-bound vehicle trajectories produced by a) V-IDM model, b) N-IDM model, c) M-IDM model, d) Eco-CACC model, and e) DRL model. Both Eco-CACC and DRL models demonstrate behaviors which involve reduced stopping at the intersection as compared to IDM variants. Both Eco-CACC and DRL models increase the throughput of vehicles during a green light phase by one extra vehicle as can be seen in Figure 2d and 2e. Figure 2f shows the speed profile of a selected vehicle under the five different control strategies.
@@ -46,7 +46,7 @@ Time space diagrams of north-bound vehicle trajectories produced by a) V-IDM mod
 #### Q2 How well does the proposed control policy generalize to environments unseen at training time?
 
 <p align="center">
-    <img src="images/mixed-traffic.png" alt="Image" width="800" height="300" />
+    <img src="images/mixed-traffic.png" alt="Image" width="800" height="250" />
 </p>
 
 <p align = "center">
