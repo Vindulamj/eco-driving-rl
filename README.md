@@ -60,7 +60,7 @@ Percentage improvement in terms of fuel usage, emission levels and average speed
 @inproceedings{jayawardana2022,
         title={Reinforcement Learning for Eco-Lagrangian Control at Intersections},
         author={Vindula Jayawardana and Cathy Wu},
-        booktitle={20th European Control Conference (ECC)},
+        booktitle={European Control Conference (ECC)},
         year={2022},
     }
 ```
