@@ -23,7 +23,7 @@ Learned behavior under 100% CAV penetration rate.
 
 #### Q1 How does the proposed control policy compare to naturalistic driving and model-based control baselines?
 
-|        Model                 |    Fuel(L)   | Emission(kg)  | Avg. speed(m/s)  |   
+|        Model                 |    Fuel   | Emission  | Avg. speed  |   
 |------------|----------------|----------------|--------------------| 
 | Gain (vs V-IDM)              | 17.76%       | 25.38% | 19.95% |   
 | Gain (vs N-IDM)              | 18.39%        | 27.43% | 20.56% |   
