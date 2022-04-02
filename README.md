@@ -8,7 +8,9 @@ Signalized intersections in arterial roads result in persistent vehicle idling a
  
 <p align="center">
     <img src="images/simulation.gif" alt="Image" width="400" height="400" />
-    Learned behavior under 100% CAV penetration rate.
+</p>
+<p align = "center">
+Learned behavior under 100% CAV penetration rate.
 </p>
 
 
@@ -27,18 +29,27 @@ Signalized intersections in arterial roads result in persistent vehicle idling a
 | Gain (vs N-IDM)              | 18.39%        | 27.43% | 20.56% |   
 | Gain (vs M-IDM)              | 25.53%         | 33.38% | 31.94% |   
 | Gain (vs Eco-CACC)           | 4.70%         | 2.98%  | -1.04% |   
+
+<p align = "center">
 Comparison of per vehicle fuel consumption (lower is better), emission level (lower is better) and average speed (higher is better) under different control strategies with 100% CAV penetration rate.
+</p>
+
 
 <p align="center">
     <img src="images/ts-diagrams.gif" alt="Image" width="800" height="200" />
-    Time space diagrams of north-bound vehicle trajectories produced by a) V-IDM model, b) N-IDM model, c) M-IDM model, d) Eco-CACC model, and e) DRL model. Both Eco-CACC and DRL models demonstrate behaviors which involve reduced stopping at the intersection as compared to IDM variants. Both Eco-CACC and DRL models increase the throughput of vehicles during a green light phase by one extra vehicle as can be seen in Figure 2d and 2e. Figure 2f shows the speed profile of a selected vehicle under the five different control strategies.
+</p>
+<p align = "center">
+Time space diagrams of north-bound vehicle trajectories produced by a) V-IDM model, b) N-IDM model, c) M-IDM model, d) Eco-CACC model, and e) DRL model. Both Eco-CACC and DRL models demonstrate behaviors which involve reduced stopping at the intersection as compared to IDM variants. Both Eco-CACC and DRL models increase the throughput of vehicles during a green light phase by one extra vehicle as can be seen in Figure 2d and 2e. Figure 2f shows the speed profile of a selected vehicle under the five different control strategies.
 </p>
 
 ##### Q2 How well does the proposed control policy generalize to environments unseen at training time?
 
 <p align="center">
     <img src="images/mixed-traffic.gif" alt="Image" width="800" height="200" />
-    Percentage improvement in terms of fuel usage, emission levels and average speed from the IDM variant baselines given in Table IV under different CAV penetration rates (CAVs are controlled by zero-shot transferred DRL policy).
+</p>
+
+<p align = "center">
+Percentage improvement in terms of fuel usage, emission levels and average speed from the IDM variant baselines given in Table IV under different CAV penetration rates (CAVs are controlled by zero-shot transferred DRL policy).
 </p>
 
 
@@ -54,4 +65,4 @@ Comparison of per vehicle fuel consumption (lower is better), emission level (lo
 ```
 ### Acknowledgement
 
-This research was supported by MIT-IBM Watson AI Lab. The authors acknowledge the MIT SuperCloud and Lincoln Laboratory Supercomputing Center for providing computational resources that have contributed to the research results reported within this paper. The authors would like to thank Mark Taylor, Blaine Leonard, Matt Luker and Michael Sheffield at the Utah Department of Transportation for numerous constructive discussions. The authors would also like to thank Zhongxia Yan for his help in coding the original framework that was extended to produce the computational results reported in this paper.
+The authors acknowledge the MIT SuperCloud and Lin- coln Laboratory Supercomputing Center for providing com- putational resources that have contributed to the research results reported within this paper. The authors are grateful to Mark Taylor, Blaine Leonard, Matt Luker and Michael Sheffield at the Utah Department of Transportation for nu- merous constructive discussions. The authors would also like to thank Zhongxia Yan for his help in developing the original framework that was extended to produce the computational results reported in this paper.
