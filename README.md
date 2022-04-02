@@ -1,10 +1,25 @@
-## Reinforcement Learning for Eco-Lagrangian Control at Intersections
+## Learning Eco-Driving Strategies at Signalized Intersections
 #### Vindula Jayawardana (MIT) and Cathy Wu (MIT)
 
-Signalized intersections in arterial roads result in persistent vehicle idling, accelerations and decelerations thereby contributing significantly towards fuel consumption and CO2 emission levels. There has thus been a line of work studying eco-driving control strategies to reduce fuel consumption and emission levels at intersections. However, methods to devise effective control strategies across a variety of traffic settings remains elusive. In this paper, we propose a reinforcement learning (RL) approach to learn effective eco-driving control strategies. In contrast to existing strategies, an RL approach 1) does not require the vehicle dynamics to take on a specific mathematical form (i.e., model-free), 2) accounts for the complexity of inter-vehicle traffic dynamics, and 3) accommodates rich objectives of reducing fuel consumption while minimizing the impact on travel time. We analyze the potential impact of the learned control policy on fuel consumption, CO2 emission, and travel time, in comparison to human-like driving and model-based baselines. We further demonstrate the generalizability of the learned policies under mixed traffic scenarios. Simulation results indicate that scenarios with 100% CAVs may yield as high as 18% reduction in fuel consumption, 25% reduction in CO2 emission levels while even improving the average travel speed by 20%.
+Signalized intersections in arterial roads result in persistent vehicle idling and excess accelerations, contributing to fuel consumption and CO2 emissions. There has thus been a line of work studying eco-driving control strategies to reduce fuel consumption and emission levels at intersections. However, methods to devise effective control strategies across a variety of traffic settings remain elusive. In this paper, we propose a reinforcement learning (RL) approach to learn effective eco- driving control strategies. We analyze the potential impact of a learned strategy on fuel consumption, CO2 emission, and travel time and compare with naturalistic driving and model-based baselines. We further demonstrate the generalizability of the learned policies under mixed traffic scenarios. Simulation re- sults indicate that scenarios with 100% penetration of connected autonomous vehicles (CAV) may yield as high as 18% reduction in fuel consumption and 25% reduction in CO2 emission levels while even improving travel speed by 20%. Furthermore, results indicate that even 25% CAV penetration can bring at least 50% of the total fuel and emission reduction benefits.
 
 ### Results
 
+ 
+<p align="center">
+    <img src="images/simulation.gif" alt="Image" width="400" height="400" />
+    Learned behavior under 100% CAV penetration rate.
+</p>
+
+
+#### Baselines
+
+• V-IDM: This is the deterministic vanilla version of the IDM car-following model introduced in Section III-D. It is a driving baseline that can produce realistic shock waves.
+• N-IDM: This baseline adds a noise sampled from a uniform distribution unif (−0.2, 0.2) to the IDM de- fined acceleration a. This is a driving baseline that can produce realistic shock waves and models variability in driving behaviors of humans.
+• M-IDM: This baseline is developed on top of N-IDM model such that IDM parameters introduced in Sec- tion III-D for each driver are sampled from respective Gaussian distributions. It represents a more diverse mix of drivers with varying levels of aggressiveness.
+• Eco-CACC: This is a model-based trajectory optimization strategy.
+
+##### Q1 How does the proposed control policy compare to naturalistic driving and model-based control baselines?
     
 |        Model                 |    Fuel(L)   | Emission(kg)  | Avg. speed(m/s)  |   
 |------------|----------------|----------------|--------------------| 
@@ -12,26 +27,19 @@ Signalized intersections in arterial roads result in persistent vehicle idling, 
 | Gain (vs N-IDM)              | 18.39%        | 27.43% | 20.56% |   
 | Gain (vs M-IDM)              | 25.53%         | 33.38% | 31.94% |   
 | Gain (vs Eco-CACC)           | 4.70%         | 2.98%  | -1.04% |   
-
+Comparison of per vehicle fuel consumption (lower is better), emission level (lower is better) and average speed (higher is better) under different control strategies with 100% CAV penetration rate.
 
 <p align="center">
-    <img src="images/simulation.gif" alt="Image" width="400" height="400" />
+    <img src="images/ts-diagrams.gif" alt="Image" width="800" height="200" />
+    Time space diagrams of north-bound vehicle trajectories produced by a) V-IDM model, b) N-IDM model, c) M-IDM model, d) Eco-CACC model, and e) DRL model. Both Eco-CACC and DRL models demonstrate behaviors which involve reduced stopping at the intersection as compared to IDM variants. Both Eco-CACC and DRL models increase the throughput of vehicles during a green light phase by one extra vehicle as can be seen in Figure 2d and 2e. Figure 2f shows the speed profile of a selected vehicle under the five different control strategies.
 </p>
 
-### Installation
-1. Make sure that your computer's or server's OS is Ubuntu 18.04 or lower, or Mac.
-2. Follow instructions [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) to install Miniconda, likely `wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh` followed by `bash Miniconda3-latest-Linux-x86_64.sh`
-3. Run `bash scripts/setup_sumo_<os_version>.sh` corresponding to your OS version to set up SUMO and add `~/sumo_binaries/bin` to your `PATH` environment variable. Try running `sumo`
-4. Install PyTorch from [pytorch.org](pytorch.org).
-5. Install dependencies `pip install -r requirements.txt`
+##### Q2 How well does the proposed control policy generalize to environments unseen at training time?
 
-### Instructions for running the code
-`<agent_type>` is the type of the agents that can be used to control CAVs. Available options: RL, IDM
-
-`<res_dir>` is the result directory, which is where the model checkpoints, training logs, and training csv results will be saved. Add `render` as an argument for using `sumo-gui` instead of `sumo`. E.g. `python pexps/<script>.py <res_dir> render`.
-
-#### Eco-driving in 1x1 intersection
-`python pexps/main.py --agent <agent_type> --res <res_dir>`
+<p align="center">
+    <img src="images/mixed-traffic.gif" alt="Image" width="800" height="200" />
+    Percentage improvement in terms of fuel usage, emission levels and average speed from the IDM variant baselines given in Table IV under different CAV penetration rates (CAVs are controlled by zero-shot transferred DRL policy).
+</p>
 
 
 ### Citation
