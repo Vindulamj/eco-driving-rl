@@ -32,7 +32,7 @@ Learned behavior under 100% CAV penetration rate.
 
 
 <p align = "center">
-Comparison of per vehicle fuel consumption (lower is better), emission level (lower is better) and average speed (higher is better) under different control strategies with 100% CAV penetration rate.
+Comparison of per vehicle fuel consumption, emission level and average speed improvement under different control strategies with 100% CAV penetration rate.
 </p>
 
 
