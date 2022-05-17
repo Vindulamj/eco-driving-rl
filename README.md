@@ -1,5 +1,5 @@
 ## Learning Eco-Driving Strategies at Signalized Intersections
-#### Vindula Jayawardana (MIT) and Cathy Wu (MIT)
+#### [Vindula Jayawardana](https://vindulamj.github.io/web/) (MIT) and [Cathy Wu](http://www.wucathy.com/blog/) (MIT)
 
 Signalized intersections in arterial roads result in persistent vehicle idling and excess accelerations, contributing to fuel consumption and CO2 emissions. There has thus been a line of work studying eco-driving control strategies to reduce fuel consumption and emission levels at intersections. However, methods to devise effective control strategies across a variety of traffic settings remain elusive. In this paper, we propose a reinforcement learning approach to learn effective eco-driving control strategies. We analyze the potential impact of a learned strategy on fuel consumption, CO2 emission, and travel time and compare with naturalistic driving and model-based baselines. We further demonstrate the generalizability of the learned policies under mixed traffic scenarios. Simulation results indicate that scenarios with 100% penetration of connected autonomous vehicles (CAV) may yield as high as 18% reduction in fuel consumption and 25% reduction in CO2 emission levels while even improving travel speed by 20%. Furthermore, results indicate that even 25% CAV penetration can bring at least 50% of the total fuel and emission reduction benefits.
 
@@ -58,7 +58,7 @@ Percentage improvement in terms of fuel usage, emission levels and average speed
 
 ```
 @inproceedings{jayawardana2022,
-        title={Reinforcement Learning for Eco-Lagrangian Control at Intersections},
+        title={Learning Eco-driving Strategies at Siganlized Intersections},
         author={Vindula Jayawardana and Cathy Wu},
         booktitle={European Control Conference (ECC)},
         year={2022},
