@@ -58,7 +58,7 @@ Percentage improvement in terms of fuel usage, emission levels and average speed
 
 ```
 @inproceedings{jayawardana2022,
-        title={Learning Eco-driving Strategies at Siganlized Intersections},
+        title={Learning Eco-driving Strategies at Signalized Intersections},
         author={Vindula Jayawardana and Cathy Wu},
         booktitle={European Control Conference (ECC)},
         year={2022},
