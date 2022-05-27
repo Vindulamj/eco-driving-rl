@@ -13,6 +13,11 @@ Signalized intersections in arterial roads result in persistent vehicle idling a
     <img src="images/simulation.gif" alt="Image" width="400" height="400" />
 </p>
 
+<p align="center">
+    Human driving behavior under 100% human driver penetration.
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    Learned behavior under 100% CAV penetration.
+</p>
 
 #### Baselines
 
