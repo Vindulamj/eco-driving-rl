@@ -1,4 +1,3 @@
-## Learning Eco-Driving Strategies at Signalized Intersections
 #### [Vindula Jayawardana](https://vindulamj.github.io/web/) (MIT) and [Cathy Wu](http://www.wucathy.com/blog/) (MIT)
 
 
