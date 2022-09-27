@@ -10,6 +10,3 @@ buttons:
   Tech Crunch Mention: 'https://techcrunch.com/2022/05/30/perceptron-ai-roundup-robots-rocket-league/'
   Cite: '#Citation'
 google_analytics: G-YJBFFBG3S7
-theme: jekyll-theme-cayman
-plugins: {jekyll-remote-theme}
-
