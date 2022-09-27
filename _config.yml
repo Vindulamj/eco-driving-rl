@@ -1,7 +1,7 @@
 title: Learning Eco-Driving Strategies at Signalized Intersections
 description: Vindula Jayawardana (MIT) and Cathy Wu (MIT)
 logo: /images/intro.png
-show_downloads: true
+show_downloads: false
 google_analytics: G-YJBFFBG3S7
 theme: jekyll-theme-cayman
 plugins: {jekyll-remote-theme}
