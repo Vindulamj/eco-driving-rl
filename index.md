@@ -28,15 +28,14 @@ Signalized intersections in arterial roads result in persistent vehicle idling a
 * Eco-CACC: A model-based trajectory optimization strategy.
 
 #### Q1 How does the proposed control policy compare to naturalistic driving and model-based control baselines?
-<p align="center">
-
+<center>
 |        Model                 |    Fuel   | Emission  | Avg. speed  |   
 |------------|----------------|----------------|--------------------| 
 | Gain (vs V-IDM)              | 17.76%       | 25.38% | 19.95% |   
 | Gain (vs N-IDM)              | 18.39%        | 27.43% | 20.56% |   
 | Gain (vs M-IDM)              | 25.53%         | 33.38% | 31.94% |   
 | Gain (vs Eco-CACC)           | 4.70%         | 2.98%  | -1.04% |   
-</p>
+</center>
 
 <p align = "center">
 Comparison of per vehicle fuel consumption, emission level and average speed improvement under different control strategies with 100% CAV penetration rate.
@@ -71,7 +70,7 @@ Percentage improvement in terms of fuel usage, emission levels and average speed
 ### Authors 
 
 <div style="text-align: left;">
-{%- for author in site.authors -%}
+{%- for author in site.authors.authors -%}
 <div class="person">
   <img src="{{ author.image }}" width=140 />
   <a href="{{ author.url | relative_url }}">{{ author.name }}</a><br>
