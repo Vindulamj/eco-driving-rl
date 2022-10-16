@@ -1,8 +1,8 @@
 - name: Vindula Jayawardana
-  image: _data/vindula.png
+  image: images/vindula.png
   title: PhD Student, MIT
   url: https://vindulamj.github.io/web/
 - name: Cathy Wu
-  image: _data/cathy.png
+  image: images/cathy.png
   title: Assistant Professor, MIT
   url: http://www.wucathy.com/blog/

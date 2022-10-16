@@ -29,7 +29,7 @@ Signalized intersections in arterial roads result in persistent vehicle idling a
 
 #### Q1 How does the proposed control policy compare to naturalistic driving and model-based control baselines?
 <p align="center">
-    <img src="images/results.png" alt="Image" width="600" height="320" />
+    <img src="images/results.png" alt="Image" width="500" height="250" />
 </p>
 Comparison of per vehicle fuel consumption (lower is better), emission level (lower is better) and average speed (higher is better) under different control strategies with 100% CAV penetration rate
 
@@ -51,7 +51,11 @@ Percentage improvement in terms of fuel usage, emission levels and average speed
 ### Citation
 
 ```
-@inproceedings{jayawardana2022learning, author={Jayawardana, Vindula and Wu, Cathy}, booktitle={2022 European Control Conference (ECC)}, title={Learning Eco-Driving Strategies at Signalized Intersections} year={2022}, pages={383-390}, doi={10.23919/ECC55457.2022.9838000}}
+@inproceedings{jayawardana2022learning, 
+                author={Jayawardana, Vindula and Wu, Cathy}, 
+                booktitle={2022 European Control Conference (ECC)}, 
+                title={Learning Eco-Driving Strategies at Signalized Intersections} 
+                year={2022}, pages={383-390}, doi={10.23919/ECC55457.2022.9838000}}
 ```
 
 ### Authors 
