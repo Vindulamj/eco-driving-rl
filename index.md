@@ -47,15 +47,14 @@ Time space diagrams of north-bound vehicle trajectories produced by a) V-IDM mod
 
 Percentage improvement in terms of fuel usage, emission levels and average speed from the IDM variant baselines under different CAV penetration rates (CAVs are controlled by zero-shot transferred DRL policy).
 
-
 ### Citation
 
 ```
 @inproceedings{jayawardana2022learning, 
-                author={Jayawardana, Vindula and Wu, Cathy}, 
-                booktitle={2022 European Control Conference (ECC)}, 
-                title={Learning Eco-Driving Strategies at Signalized Intersections} 
-                year={2022}, pages={383-390}, doi={10.23919/ECC55457.2022.9838000}}
+               author={Jayawardana, Vindula and Wu, Cathy}, 
+               booktitle={2022 European Control Conference (ECC)}, 
+               title={Learning Eco-Driving Strategies at Signalized Intersections} 
+               year={2022}, pages={383-390}, doi={10.23919/ECC55457.2022.9838000}}
 ```
 
 ### Authors 
