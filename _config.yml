@@ -1,5 +1,5 @@
 title: Learning Eco-Driving Strategies at Signalized Intersections
-description: Vindula Jayawardana (MIT) and Cathy Wu (MIT)
+description: European Control Conference (ECC) 2022
 logo: /images/intro.png
 buttons:
   Paper: 'https://arxiv.org/pdf/2204.12561.pdf'
@@ -10,4 +10,5 @@ buttons:
   NPR Podcast: 'https://open.spotify.com/episode/17MmLoG6AU5RX81UAHCvJU?fbclid=IwAR1RWwnPkwcO-YASi1vTlii-Z9qlrfzg8vnnjP4D2EiyE3uRQ5jUy3wqVoM'
   Tech Crunch Mention: 'https://techcrunch.com/2022/05/30/perceptron-ai-roundup-robots-rocket-league/'
   Cite: '#citation'
+  Authors: '#authors'
 google_analytics: G-YJBFFBG3S7
