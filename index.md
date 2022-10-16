@@ -29,20 +29,20 @@ Signalized intersections in arterial roads result in persistent vehicle idling a
 
 #### Q1 How does the proposed control policy compare to naturalistic driving and model-based control baselines?
 <p align="center">
-    <img src="images/results.png" alt="Image" width="800" height="200" />
+    <img src="images/results.png" alt="Image" width="600" height="320" />
 </p>
 Comparison of per vehicle fuel consumption (lower is better), emission level (lower is better) and average speed (higher is better) under different control strategies with 100% CAV penetration rate
 
 
 <p align="center">
-    <img src="images/ts-diagrams.png" alt="Image" width="800" height="350" />
+    <img src="images/ts-diagrams.png" alt="Image" width="800" height="400" />
 </p>
 Time space diagrams of north-bound vehicle trajectories produced by a) V-IDM model, b) N-IDM model, c) M-IDM model, d) Eco-CACC model, and e) DRL model. Both Eco-CACC and DRL models demonstrate behaviors which involve reduced stopping at the intersection as compared to IDM variants. Both Eco-CACC and DRL models increase the throughput of vehicles during a green light phase by one extra vehicle as can be seen in Figure d and e. Figure f shows the speed profile of a selected vehicle under the five different control strategies.
 
 #### Q2 How well does the proposed control policy generalize to environments unseen at training time?
 
 <p align="center">
-    <img src="images/mixed-traffic.png" alt="Image" width="600" height="350" />
+    <img src="images/mixed-traffic.png" alt="Image" width="800" height="200" />
 </p>
 
 Percentage improvement in terms of fuel usage, emission levels and average speed from the IDM variant baselines under different CAV penetration rates (CAVs are controlled by zero-shot transferred DRL policy).
@@ -51,12 +51,7 @@ Percentage improvement in terms of fuel usage, emission levels and average speed
 ### Citation
 
 ```
-@inproceedings{jayawardana2022,
-        title={Learning Eco-driving Strategies at Signalized Intersections},
-        author={Vindula Jayawardana and Cathy Wu},
-        booktitle={European Control Conference (ECC)},
-        year={2022},
-    }
+@inproceedings{jayawardana2022learning, author={Jayawardana, Vindula and Wu, Cathy}, booktitle={2022 European Control Conference (ECC)}, title={Learning Eco-Driving Strategies at Signalized Intersections} year={2022}, pages={383-390}, doi={10.23919/ECC55457.2022.9838000}}
 ```
 
 ### Authors 
@@ -64,7 +59,7 @@ Percentage improvement in terms of fuel usage, emission levels and average speed
 <div style="text-align: left;">
 {%- for person in site.data.authors -%}
 <div class="person">
-  
+  <img src="{{ person.image }}" width=140 />
   <a href="{{ person.url | relative_url }}">{{ person.name }}</a><br>
   <span>{{ person.title | replace: '&', '<br>' }}</span>
 </div>
