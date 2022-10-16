@@ -42,7 +42,7 @@ Time space diagrams of north-bound vehicle trajectories produced by a) V-IDM mod
 #### Q2 How well does the proposed control policy generalize to environments unseen at training time?
 
 <p align="center">
-    <img src="images/mixed-traffic.png" alt="Image" width="800" height="200" />
+    <img src="images/mixed-traffic.png" alt="Image" width="600" height="350" />
 </p>
 
 Percentage improvement in terms of fuel usage, emission levels and average speed from the IDM variant baselines under different CAV penetration rates (CAVs are controlled by zero-shot transferred DRL policy).
@@ -64,7 +64,7 @@ Percentage improvement in terms of fuel usage, emission levels and average speed
 <div style="text-align: left;">
 {%- for person in site.data.authors -%}
 <div class="person">
-  <img src="{{ person.image }}" width=140 />
+  
   <a href="{{ person.url | relative_url }}">{{ person.name }}</a><br>
   <span>{{ person.title | replace: '&', '<br>' }}</span>
 </div>
