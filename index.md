@@ -70,11 +70,11 @@ Percentage improvement in terms of fuel usage, emission levels and average speed
 ### Authors 
 
 <div style="text-align: left;">
-{%- for author in site.authors.authors -%}
+{%- for person in site.data.authors -%}
 <div class="person">
-  <img src="{{ author.image }}" width=140 />
-  <a href="{{ author.url | relative_url }}">{{ author.name }}</a><br>
-  <span>{{ author.title | replace: '&', '<br>' }}</span>
+  <img src="{{ person.image }}" width=140 />
+  <a href="{{ person.url | relative_url }}">{{ person.name }}</a><br>
+  <span>{{ person.title | replace: '&', '<br>' }}</span>
 </div>
 {%- endfor -%}
 </div>
