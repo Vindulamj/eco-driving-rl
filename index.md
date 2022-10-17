@@ -35,7 +35,7 @@ Signalized intersections in arterial roads result in persistent vehicle idling a
 </p>
 Comparison of per vehicle fuel consumption (lower is better), emission level (lower is better) and average speed (higher is better) under different control strategies with 100% CAV penetration rate
 
-
+<br>
 <p align="center">
     <img src="images/ts-diagrams.png" alt="Image" width="800" height="400" />
 </p>
