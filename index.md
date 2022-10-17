@@ -68,9 +68,6 @@ Percentage improvement in terms of fuel usage, emission levels and average speed
 </div>
 {% endfor %}
 
-{% for team_member in site.data.authors %}
-- {{ team_member.name }}, role: {{ team_member.role }}
-{% endfor %}
 </div>
 
 ### Acknowledgement
