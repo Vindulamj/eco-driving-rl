@@ -73,5 +73,19 @@ Percentage improvement in terms of fuel usage, emission levels and average speed
 ### Acknowledgement
 
 This work was supported by the MIT-IBM Watson AI Lab. The authors acknowledge the MIT SuperCloud and Lincoln Laboratory Supercomputing Center for providing computational resources that have contributed to the research results reported within this paper. The authors are grateful to Mark Taylor, Blaine Leonard, Matt Luker and Michael Sheffield at the Utah Department of Transportation for numerous constructive discussions. The authors would also like to thank Zhongxia Yan for his help in developing the original framework that was extended to produce the computational results reported in this paper.
-<br>
-Website Design <a href="https://github.com/pages-themes/cayman">&#9734</a> and <a href="https://github.com/agarwl/rliable">&#9734</a>
+<br><br>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+        <td style="padding:0px">
+            <br>
+            <p style="text-align:right;font-size:small;">
+                Website Design <a href="https://github.com/pages-themes/cayman"><span>&#9734;</span></a> and <a href="https://github.com/agarwl/rliable"><span>&#9734;</span></a>
+            </p>
+        </td>
+    </tr>
+        </tbody></table>
+
+        </td>
+    </tr>
+</table>
