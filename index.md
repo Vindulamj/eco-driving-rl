@@ -4,15 +4,11 @@ layout: default
 ---
 @import "{{ site.theme }}";
 .markdown-body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 0.8;
 }
 @import "{{ site.theme }}";
 .markdown-body {
-  line-height: 1.1;
-}
-@import "{{ site.theme }}";
-.markdown-body {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 <p align="center">
