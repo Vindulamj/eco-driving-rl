@@ -2,14 +2,6 @@
 title: 'Learning Eco-Driving Strategies at Signalized Intersections'
 layout: default
 ---
-@import "{{ site.theme }}";
-.markdown-body {
-  line-height: 0.8;
-}
-@import "{{ site.theme }}";
-.markdown-body {
-  font-size: 10px;
-}
 
 <p align="center">
     <img src="images/intro.png" alt="Image" width="450" height="250" />
