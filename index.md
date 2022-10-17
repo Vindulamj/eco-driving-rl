@@ -60,15 +60,16 @@ Percentage improvement in terms of fuel usage, emission levels and average speed
 ### Authors 
 
 <div style="text-align: left;">
-{% for thing in list %}
-[ This is the loop body. Do something with the "thing" variable here. ]
-{% endfor %}
 {% for person in site.data.authors %}
 <div class="person">
   <img src="{{ person.image }}" width=140 />
   <a href="{{ person.url | relative_url }}">{{ person.name }}</a><br>
   <span>{{ person.title | replace: '&', '<br>' }}</span>
 </div>
+{% endfor %}
+
+{% for team_member in site.data.authors %}
+- {{ team_member.name }}, role: {{ team_member.role }}
 {% endfor %}
 </div>
 
