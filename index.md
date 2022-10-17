@@ -4,7 +4,7 @@ layout: default
 ---
 @import "{{ site.theme }}";
 .markdown-body {
-  font-family: 'serif';
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
 
