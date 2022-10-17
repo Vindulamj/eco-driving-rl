@@ -5,11 +5,15 @@ layout: default
 @import "{{ site.theme }}";
 .markdown-body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@import "{{ site.theme }}";
+.markdown-body {
+  line-height: 1.1;
+}
+@import "{{ site.theme }}";
+.markdown-body {
   font-size: 12px;
 }
-
-#### [Vindula Jayawardana](https://vindulamj.github.io/web/) (MIT) and [Cathy Wu](http://www.wucathy.com/blog/) (MIT)
-
 
 <p align="center">
     <img src="images/intro.png" alt="Image" width="450" height="250" />
